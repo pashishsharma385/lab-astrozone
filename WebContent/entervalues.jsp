@@ -10,7 +10,7 @@
 </head>
 <body id="home">
     <img src="./assets/small logo.svg" id="logosmall">
-    <form id="container"  action="/lab-java-astrozone/entervalue" method="post"> 
+    <form id="container"  action="${pageContext.request.contextPath}/entervalue" method="post"> 
         <p id="p2">Enter your details to check your horoscope</p>
         <br>
         <div>
